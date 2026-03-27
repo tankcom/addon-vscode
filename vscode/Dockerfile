@@ -49,7 +49,6 @@ RUN \
         zip \
         zsh \
         less
-        less=668-1 \
     \
     && sed -i -e 's/# en_US.UTF-8 UTF-8/en_US.UTF-8 UTF-8/' /etc/locale.gen \
     && locale-gen \
